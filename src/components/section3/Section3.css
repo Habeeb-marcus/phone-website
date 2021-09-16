@@ -1,0 +1,22 @@
+.sect3-cont {
+    display: flex;
+    padding: 3rem 7rem;
+    justify-content: space-between;
+    background: #f4f5f9;
+    ;
+}
+
+.sect3-img-cnt img {
+    width: 215px;
+    height: 432px;
+}
+
+article{
+    width: 60%;
+    /* background: #f4f5f9; */
+}
+
+article h5 {
+        width: 42rem;
+        font-size: 1.2rem;
+}

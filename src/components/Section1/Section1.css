@@ -1,0 +1,55 @@
+.section1-cont {
+     padding: 3rem 10rem;
+     background: #f4f5f9;
+}
+
+.section1-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120rem;
+}
+
+.phone-img {
+      height: 40rem;
+}
+
+
+.title-cont {
+     width: 40rem;
+}
+
+.title-cont h1 {
+    font-size: 4rem;
+    /* color: #385094; */
+    color: #001e77;
+}
+
+.title-cont p {
+        font-size: 18px;
+        color: #677294;
+        margin-top: -20px;
+
+}
+
+.sect1-btn {
+        /* text-align: center; */
+        margin-top: 60px;
+}
+
+button {
+        padding: 1rem;
+        width: 200px;
+        border-radius: 30px;
+        border: none;
+        background: #2e50b1;
+        color: #fff;
+}
+.btn-left {
+    margin-right: 12px;
+}
+
+.btn-right {
+    /* margin-left: 12px; */
+    
+}
+
