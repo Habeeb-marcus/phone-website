@@ -1,4 +1,55 @@
 .slider-cont {
-    width: 100vw;
-    padding: 2rem
+    /* width: 100vw; */
+    padding: 3rem
 }
+
+.review-cnt {
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+/* 
+div .rev-card{
+    width: 80%;
+}
+
+.rev-card {
+     width: 80%;
+    height: 300px; 
+    /* box-shadow: 7px 2px 24px 5px rgb(0 0 0 / 10%); */
+    /* background: hotpink; */
+    /* gap: 3px; */
+    /* margin-right: 2px; */
+
+
+    .image {
+        width: 130px;
+        border-radius: 50%;
+    }
+
+    span {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .card-details {
+        width: 60%;
+    }
+
+    .icon {
+        margin-top: 25px;
+        color: #2e50b1;
+    }
+
+    .date {
+        margin-top: 30px;
+        color: #2e50b1;
+    }
+
+    .card-main {
+        box-shadow: 0 0 8px 0 rgb(0 0 0 / 14%);
+        margin-right: 5px;
+    }

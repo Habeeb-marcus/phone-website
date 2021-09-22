@@ -1,10 +1,10 @@
 import React, {Component} from "react";
-// import {Carousel} from 'react-bootstrap'
-// import { Swiper, SwiperSlide } from 'swiper/react'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
 import './Section4.css'
 // import 'swiper/css';
-import img1 from "../../images/slider/img1.jpeg"
+import prof1 from "../../images/slider/prof1.jpg"
 import img2 from "../../images/slider/img2.jpeg"
 import img3 from "../../images/slider/img3.jpeg"
 import img4 from "../../images/slider/img4.jpeg"
@@ -14,52 +14,201 @@ import img4 from "../../images/slider/img4.jpeg"
 
 
 
- class CarouselContainer extends Component {
+ export default class CarouselComponent extends Component {
   render() {
-      
     const settings = {
       dots: true,
       infinite: true,
       speed: 500,
-
-      slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToShow: 3,
+      slidesToScroll: 3
     };
     return (
       <div>
-        <h2> Single Item</h2>
-        <div className="slider-cont">
+        <h2 className="card-title"> Multiple items </h2>
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-            <img src= {img1} alt= "img1"/>
+
+
+            <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+
+                        <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+                        <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+                        <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+                        <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+                        <div className="card-main">
+                <div className="card-top">
+                    <div className="card-img">
+                        <img className="image" src={prof1} alt="img1"/>
+                    </div>
+                    <div className="card-details">
+                        <span className="name">Tarun Singh Verma</span>
+                        <span className="country">(New Delhi)</span>
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                            <FontAwesomeIcon icon={faStar}/>
+                        </div>
+                    </div>
+                </div>
+                <div className="card-btm">
+                    <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
+                    <span className="date">January 25, 2020</span>
+                </div>
+            </div>
+
+
+
+            
+          {/* <div> */}
+            {/* <h3>1</h3>
           </div>
           <div>
             <h3>2</h3>
-            <img src= {img2} alt= "img2"/>
           </div>
           <div>
             <h3>3</h3>
-            <img src= {img3} alt= "img3"/>
           </div>
           <div>
             <h3>4</h3>
-            <img src= {img4} alt= "img4"/>
           </div>
           <div>
             <h3>5</h3>
-            <img src= {img2} alt= "img2"/>
           </div>
           <div>
             <h3>6</h3>
-            <img src= {img1} alt= "img1"/>
           </div>
+          <div>
+            <h3>7</h3>
+          </div>
+          <div>
+            <h3>8</h3>
+          </div>
+          <div>
+            <h3>9</h3>
+          </div> */}
         </Slider>
-        </div>
-    </div>
+      </div>
     );
   }
 }
+
 
 
 
@@ -155,4 +304,4 @@ import img4 from "../../images/slider/img4.jpeg"
 // }
 
 
-export default CarouselContainer
+// export default CarouselContainer
