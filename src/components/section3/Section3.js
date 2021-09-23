@@ -8,7 +8,7 @@ function Section3 () {
     return (
         <div>
             <div className="sect3-cont">
-            <article>
+            <article data-aos="fade-right">
                 <h3>How  it Works: <br/>  we help you to get money for you used Apple gadgets</h3> 
                 <h5>
                     1.	&nbsp; Step 1: Get a Quote
@@ -29,7 +29,7 @@ function Section3 () {
 
 
             <div className="img-right">
-                <div className="sect3-img-cnt">
+                <div className="sect3-img-cnt" data-aos="fade-left">
                     <img src={sellphone1} alt="cell1"/>
                 </div>
             </div>

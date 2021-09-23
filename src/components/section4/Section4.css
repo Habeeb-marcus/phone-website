@@ -4,7 +4,12 @@
 }
 
 .review-cnt {
+    /* overflow: hidden; */
+}
 
+.review-test {
+    text-align: center;
+    padding: 5rem 5rem 0;
 }
 
 .card-title {
@@ -52,4 +57,21 @@ div .rev-card{
     .card-main {
         box-shadow: 0 0 8px 0 rgb(0 0 0 / 14%);
         margin-right: 5px;
+        width: 90%!important;
+    }
+
+    .slick-slider {
+        /* margin-top: 3rem; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+    }
+
+    .slick-list {
+        width: 85%;
+    }
+
+    .slick-track {
+        overflow: hidden;
     }

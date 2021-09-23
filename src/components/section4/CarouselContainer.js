@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import Slider from "react-slick";
 import './Section4.css'
+
+// import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/css';
 import prof1 from "../../images/slider/prof1.jpg"
 import img2 from "../../images/slider/img2.jpeg"
@@ -11,10 +13,31 @@ import img4 from "../../images/slider/img4.jpeg"
 
  
 
+// export default class CarouselContainer extends Component{
+//     render(){
+//   return (
+//       <div>
+//     <Swiper
+//       spaceBetween={50}
+//       slidesPerView={3}
+//       onSlideChange={() => console.log('slide change')}
+//       onSwiper={(swiper) => console.log(swiper)}
+//     >
+//       <SwiperSlide>Slide 1</SwiperSlide>
+//       <SwiperSlide>Slide 2</SwiperSlide>
+//       <SwiperSlide>Slide 3</SwiperSlide>
+//       <SwiperSlide>Slide 4</SwiperSlide>
+//       ...
+//     </Swiper>
+//     </div>
+//   );
+//   }
+// };
 
 
 
- export default class CarouselComponent extends Component {
+
+ export default class CarouselContainer extends Component {
   render() {
     const settings = {
       dots: true,
@@ -25,7 +48,7 @@ import img4 from "../../images/slider/img4.jpeg"
     };
     return (
       <div>
-        <h2 className="card-title"> Multiple items </h2>
+
         <Slider {...settings}>
 
 
@@ -172,38 +195,7 @@ import img4 from "../../images/slider/img4.jpeg"
                     <span className="date">January 25, 2020</span>
                 </div>
             </div>
-
-
-
-            
-          {/* <div> */}
-            {/* <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-          <div>
-            <h3>7</h3>
-          </div>
-          <div>
-            <h3>8</h3>
-          </div>
-          <div>
-            <h3>9</h3>
-          </div> */}
-        </Slider>
+       </Slider>
       </div>
     );
   }
