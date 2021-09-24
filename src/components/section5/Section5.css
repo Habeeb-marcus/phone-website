@@ -1,0 +1,21 @@
+.sect5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sect5-cont {
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.title {
+    display: flex;
+}
+
+.qst-wrapper {
+    border-left: 1px solid grey;
+    padding: 2rem;
+    background: cornsilk;
+}
