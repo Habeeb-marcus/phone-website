@@ -10,24 +10,27 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 function Section5 () {
     return (
         <div className="sect5">
-            <div className="sect5-cont">
-                <h2>FAQs</h2>
-                <div className="qst-wrapper">
-                    <div className="question">
-                        <div className="title">
-                            <span className="num">1</span>
-                            <span className="qst">How does the App Work?</span>                         
-                            <FontAwesomeIcon icon={faPlus} />
-                        </div>
-                        <div className="answer">
-                            {/* Phoneweb runs a full set of tests on your phone's internal hardware: including sensors, touchscreen, display, cameras, battery, speakers, microphone, etc. For some tests, we need your help, others run completely automatically in the background.  */}
-                        </div>
-                    </div>
+                <div className="sect5-cont"> <h2>FAQs</h2>                   
+                        {data.map((item, idx) =>  {
+                    return <div className="qst-wrapper">
+                            <div className="question">                      
+                                <div className="title">
+                                    <span key={idx} className="num">{item.number}</span>
+                                    <span className="qst">{item.question}</span>                         
+                                    <FontAwesomeIcon icon={faPlus} />
+                                </div>
 
+                                <div className="answer">{item.answer}</div>                                
+                            </div>
+
+                        </div>
+                        // < div className=""> </div>
+
+                    
+                    }
+                    )
+                    }
                 </div>
-                < div className=""> </div>
-
-            </div>
         </div>
     )
 }

@@ -15,22 +15,36 @@
 .title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .qst {
-    margin-right: 30rem;
     font-family: sans-serif;
+    width: 83%;
+    /* cursor: pointer; */
 
+}
+
+.qst, .num {
+    margin-bottom: 0;
 }
 
 .qst-wrapper{
     padding: 2rem;
     border-left: 1px solid #808080;
+    background: #f4f5f9;
+    margin-bottom: 6px;
+    cursor: pointer;
+
 }
 
 .answer {
     margin-left: 4rem;
     margin-top: 1.98rem;
     font-family: sans-serif;
+     /* display: none; */
+     max-height: 0;
+     overflow: hidden;
+
 
 }
