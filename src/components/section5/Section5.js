@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState }from "react";
 import './Section5.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
@@ -8,24 +8,32 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 function Section5 () {
+    const [selected, setSelected] = useState(() => null)
+
+    const toggle = (idx) => {
+        if(selected === idx) {
+            return setSelected(null)
+        }
+        
+        setSelected(idx)
+    }
+
     return (
         <div className="sect5">
                 <div className="sect5-cont"> <h2>FAQs</h2>                   
                         {data.map((item, idx) =>  {
                     return <div className="qst-wrapper">
                             <div className="question">                      
-                                <div className="title">
+                                <div className="title" onClick= {() => toggle(idx)}>
                                     <span key={idx} className="num">{item.number}</span>
                                     <span className="qst">{item.question}</span>                         
-                                    <FontAwesomeIcon icon={faPlus} />
+                                    <span className="fas">{selected === idx ? '-' : '+'}</span>
                                 </div>
 
-                                <div className="answer">{item.answer}</div>                                
+                                <div className={selected === idx ? "answer show" : "answer"}>{item.answer}</div>                                
                             </div>
 
                         </div>
-                        // < div className=""> </div>
-
                     
                     }
                     )

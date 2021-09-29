@@ -20,7 +20,7 @@
 
 .qst {
     font-family: sans-serif;
-    width: 83%;
+    width: 83.1%;
     /* cursor: pointer; */
 
 }
@@ -37,14 +37,20 @@
     cursor: pointer;
 
 }
-
+ 
 .answer {
     margin-left: 4rem;
     margin-top: 1.98rem;
     font-family: sans-serif;
-     /* display: none; */
-     max-height: 0;
-     overflow: hidden;
+    display: none;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
 
+.answer.show {
+    display: inline-flex;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0 );
 
+}
+.fas {
+    font-size: 1.5rem;
 }

@@ -37,19 +37,19 @@ import img4 from "../../images/slider/img4.jpeg"
 
 
 
- export default class CarouselContainer extends Component {
+ export default class CarouselContainer extends React.Component {
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3
-    };
+    // const settings = {
+    //   dots: true,
+    //   infinite: true,
+    //   speed: 500,
+    //   slidesToShow: 3,
+    //   slidesToScroll: 3
+    // };
     return (
       <div>
 
-        <Slider {...settings}>
+        {/* <Slider {...settings}>
 
 
             <div className="card-main">
@@ -195,11 +195,65 @@ import img4 from "../../images/slider/img4.jpeg"
                     <span className="date">January 25, 2020</span>
                 </div>
             </div>
-       </Slider>
+       </Slider> */}
+
+
+                            {/* BOOTSTRAP CAROUSEL */}
+                            
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+   
+    <div class="carousel-item active">
+        <img src="..." alt="..."/>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <img src={prof1} alt="img1"/>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Tarun Singh Verma</h5>
+            <p>randompidfhpwhef9hwfwpfhwhpohhethe nasj j id f0b 9h9e0rf9wyf</p>
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <img src="..." alt="..."/>
+        <div class="carousel-caption d-none d-md-block">
+            <h5>...</h5>
+            <p>...</p>
+        </div>
+    </div>
+    
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> 
+
+
       </div>
     );
   }
 }
+
+
+
+
+
 
 
 
@@ -295,5 +349,5 @@ import img4 from "../../images/slider/img4.jpeg"
 //     )
 // }
 
-
+// 
 // export default CarouselContainer
