@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState}from 'react'
 import { NavLink } from 'react-router-dom';
 import logo from './../../images/logo.svg'
 import './Navbar.css';
@@ -6,8 +6,20 @@ import './Navbar.css';
 
 
 function Navbar() {
+const [Navbar, setNavbar] = useState(false)
+
+
+const changeNav = () => {
+if( window.scrollY >= 200) {
+    setNavbar(true)
+} else {
+    setNavbar(false)
+}
+}
+    window.addEventListener("scroll", changeNav)
+
     return (
-        <div className="nav-cont">
+        <div className={Navbar ? "nav-cont show" : "nav-cont"}>
             <nav className="nav">
                 <div className="logo-cont">
                     <img src={logo} alt="we buy phones"/>

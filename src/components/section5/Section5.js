@@ -44,6 +44,7 @@ function Section5 () {
 }
 
 
+
 const data = [
     {
         question: 'How does the App Work?',
@@ -66,7 +67,7 @@ const data = [
     {
         question: 'Is the test free of charge?',
         number: '4',
-        answer: 'Yes, we do not charge for using myhandycheck and the app is freely available for iOS and Android. Aou will automatically receive a quotation and your test report after you checked your phone.' 
+        answer: 'Yes, we do not charge for using Phoneweb and the app is freely available for iOS and Android. Aou will automatically receive a quotation and your test report after you checked your phone.' 
     },
 
     {
