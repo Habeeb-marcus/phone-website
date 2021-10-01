@@ -1,7 +1,7 @@
 import React, { useState }from "react";
 import './Section5.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 
