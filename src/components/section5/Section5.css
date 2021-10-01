@@ -37,6 +37,13 @@
     cursor: pointer;
 
 }
+
+.qst-wrapper.act {
+    border-left: 2px solid #2e50b1;
+    color: #1b698a;
+    transition: all .3s ease-out;
+
+}
  
 .answer {
     margin-left: 4rem;

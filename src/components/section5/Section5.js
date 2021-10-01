@@ -22,7 +22,7 @@ function Section5 () {
         <div className="sect5">
                 <div className="sect5-cont"> <h2>FAQs</h2>                   
                         {data.map((item, idx) =>  {
-                    return <div className="qst-wrapper">
+                    return <div className={ selected === idx ?"qst-wrapper act" : "qst-wrapper"}>
                             <div className="question">                      
                                 <div className="title" onClick= {() => toggle(idx)}>
                                     <span key={idx} className="num">{item.number}</span>

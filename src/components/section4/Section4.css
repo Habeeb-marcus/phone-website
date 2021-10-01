@@ -7,6 +7,10 @@
     /* overflow: hidden; */
 }
 
+.review-main {
+    background: #656f8d;
+}
+
 .review-test {
     text-align: center;
     padding: 5rem 5rem 0;
@@ -74,4 +78,30 @@ div .rev-card{
 
     .slick-track {
         overflow: hidden;
+    }
+
+    /* carousel image */
+
+    .item{
+       /* background: #6e7faf; */
+       
+       height: 500px;
+     
+    }
+
+    .item img {
+        margin-left: 35rem;
+    }
+
+    .img-slide {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    
+
+    .carousel {
+        margin-top: 56px;
+        /* background: #242e4a; */
+       background: #656f8d;
     }
