@@ -1,7 +1,7 @@
 import React from "react";
 import sellphone1 from "../../images/sellphone2.png"
-import sellphone2 from "../../images/sellphone.png"
-import sellphone3 from "../../images/sellphone3.png"
+// import sellphone2 from "../../images/sellphone.png"
+// import sellphone3 from "../../images/sellphone3.png"
 import "./Section3.css"
 
 function Section3 () {
