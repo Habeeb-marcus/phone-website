@@ -55,11 +55,12 @@ import img2 from "../../images/slider/img1.jpeg"
             src={prof1}
             alt="First slide"
             />
-            <Carousel.Caption>
+            <Carousel.Caption className="caption">
             <h3>Tarun Singh Verma</h3>
             <p>Sold off my phone very easily and got the payment on the spot. Best experience so far.</p>
             </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item className="item mt-30  pt-3 justify-content-sm-center">
             <img
             className="d-inline-block  w-20 align-middle img-slide"
@@ -67,11 +68,12 @@ import img2 from "../../images/slider/img1.jpeg"
             alt="Second slide"
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className="caption">
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
         </Carousel.Item>
+
         <Carousel.Item className="item mt-30  pt-3 justify-content-sm-center">
             <img
             className="d-inline-block  w-20 align-middle img-slide"
@@ -79,20 +81,20 @@ import img2 from "../../images/slider/img1.jpeg"
             alt="Third slide"
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className="caption">
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
         </Carousel.Item>
 
 
-         <Carousel.Item className="item pt-3 justify-content-sm-center">
+        <Carousel.Item className="item pt-3 justify-content-sm-center">
             <img
             className="d-inline-block w-20 align-middle img-slide"
             src={img1}
             alt="First slide"
             />
-            <Carousel.Caption>
+            <Carousel.Caption className="caption">
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>

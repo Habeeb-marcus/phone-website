@@ -15,13 +15,17 @@
 
 
 .title-cont {
-     width: 40rem;
+    width: 40rem;
+    margin-top: 4rem;
+
 }
 
 .title-cont h1 {
     font-size: 4rem;
     /* color: #385094; */
     color: #001e77;
+    margin-bottom: 3rem;
+
 }
 
 .title-cont p {

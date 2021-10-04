@@ -1,0 +1,108 @@
+.form-cont {
+    display: flex;
+    padding: 5.4rem 9rem;
+    justify-content: space-around;
+    }
+
+.form-main {
+    width: 55%;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-wrapper label {
+    margin-bottom: 5px;
+}
+
+.form-wrapper input {
+    padding: 10px;
+}
+
+.message {
+display: flex;
+flex-direction: column;
+}
+
+textarea {
+    margin-top: 5px;
+}
+
+label {
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
+
+.form-wrapper input[type=text],
+.form-wrapper input[type=email],
+label,
+label textarea {
+    background-color: #fff !important;
+    color: #206989 !important;
+}
+
+label textarea {
+    padding: 10px;
+    border: 2px solid #a3a3a3;
+}
+
+input {
+    border: 2px solid #a3a3a3;
+}
+
+form {
+    padding-top: 1rem;
+}
+
+.form-main h3,
+.details h3 {
+    text-transform: capitalize;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.details h3 {
+    margin-bottom: 1.6rem;
+    line-height: 25px;
+}
+
+
+.details b {
+        font-family: 'Quicksand';
+        font-weight: 100;
+        color: #206989
+}
+
+.details b1 {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    color: #206989
+}
+
+.terms {
+    display: flex;
+    margin-top: 34px;
+    align-items: center;
+    margin-left: 22px;
+    }
+
+
+    .terms span {
+        padding-left: 10px;
+        margin-bottom: 0;
+    }
+
+
+    .terms span a {
+        color: #206989;
+        text-decoration: none;
+    }
+
+     .terms span a:hover {
+         text-decoration: underline;
+         color: #2e50b1;
+     }

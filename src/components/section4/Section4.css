@@ -8,7 +8,7 @@
 }
 
 .review-main {
-    background: #656f8d;
+    /* background: #656f8d; */
 }
 
 .review-test {
@@ -103,5 +103,20 @@ div .rev-card{
     .carousel {
         margin-top: 56px;
         /* background: #242e4a; */
-       background: #656f8d;
+       background: #fff;
     }
+
+    .caption h3,
+    .caption p {
+        color: #000;
+    }
+
+  .carousel-indicators [data-bs-target] {
+       color: #000;
+   }
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: brightness(0);
+}

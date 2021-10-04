@@ -1,10 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap'); */
+
 .sect3-cont {
     display: flex;
-    padding: 3rem 7rem;
+    padding: 3rem 14rem;
     justify-content: space-between;
     background: #f4f5f9;
-    ;
 }
+
 
 .sect3-img-cnt img {
     width: 215px;
@@ -14,9 +16,20 @@
 article{
     width: 60%;
     /* background: #f4f5f9; */
+    font-family: 'Quicksand', Arial;
+    color: #3a3a3a;
+}
+
+article h3 {
+    font-size: 1.55rem;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+    font-weight: 600;
 }
 
 article h5 {
-        width: 42rem;
-        font-size: 1.2rem;
+    width: 37rem;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
 }
