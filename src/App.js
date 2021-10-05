@@ -23,7 +23,7 @@ function App() {
         <Section4 />
         <Section5 />
         <Form/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     </BrowserRouter>
   );

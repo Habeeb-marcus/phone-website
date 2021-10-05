@@ -38,6 +38,9 @@ function Form() {
                     {" "} <NavLink to="/https://www.myhandycheck.com/en/termsandconditions/">terms & conditons</NavLink>  and
                     {" "} <NavLink to="/https://www.webtogo.de/privacy-policy/"> privacy policy</NavLink> </span>
                 </label>
+                
+                <button className="submit"> Send </button>
+                
                 </form>
             </div>
 
