@@ -4,10 +4,62 @@
 }
 
 .top-main {
-    padding: 3rem 6rem;
+    /* padding: 3rem 6rem; */
     text-align: center;
+    padding: 2rem 6rem 0;
+
+}
+
+.top-main p {
+    font-family: 'Quicksand';
+    font-size: 1.45rem;
+    font-weight: 600;
 }
 
 .bottom-footer {
     text-align: center;
+    padding-top: 1rem;
+}
+
+.top-main img {
+    margin-bottom: 2.7rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.social li a {
+    color: #FFF;
+}
+
+.social li:not(:last-child){
+    margin-right: 1rem;
+}
+
+p {
+    color: #FFF;
+}
+
+
+.bottom-footer .data {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom-footer .data:hover {
+    text-decoration: underline;
+}
+
+.post {
+    color: yellowgreen;
+    font-family: 'quicksand';
+    font-size: 1.3rem;
+    text-decoration: none;
 }
