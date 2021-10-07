@@ -7,6 +7,15 @@ import './Navbar.css';
 
 function Navbar() {
 const [Navbar, setNavbar] = useState(false)
+const [Clicked, setClicked] = useState(false)
+
+const toggleBar = () => {
+    if(!Clicked){
+        setClicked(true)
+    } else {
+        setClicked(false)
+    }
+}
 
 
 const changeNav = () => {
@@ -23,6 +32,10 @@ if( window.scrollY >= 200) {
             <nav className="nav">
                 <div className="logo-cont">
                     <img src={logo} alt="we buy phones"/>
+                </div>
+
+                <div className="menu-mobile">
+                    <i className={Clicked ? "fas fa-times" : "fas fa-bars"} onClick={toggleBar}></i>
                 </div>
 
                 <div className="nav-list">

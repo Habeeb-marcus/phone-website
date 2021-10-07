@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Footer.css'
 import imgFoot from './../../images/logo.svg'
@@ -13,7 +13,6 @@ library.add(fab)
 
 
 
-
 function Footer() {
 
     return (
@@ -23,6 +22,8 @@ function Footer() {
                 <div className="top-main">
                     <img src={imgFoot} alt="logo"/>
                     <p>Looking for job and like what you see? check out our <NavLink  className="post" to="/">open positions!</NavLink> </p>
+                    
+
                 </div>
             </div>
             <hr/>
