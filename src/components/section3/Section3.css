@@ -7,6 +7,16 @@
     background: #f4f5f9;
 }
 
+.sect3-cont::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    background: rebeccapurple;
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+}
+
 
 .sect3-img-cnt img {
     width: 215px;
