@@ -40,10 +40,10 @@ if( window.scrollY >= 200) {
 
                 <div className="nav-list">
                     <ul className="nav-ul">
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about">How it works</NavLink></li>
-                        <li><NavLink to="/reviews">Reviews</NavLink></li>
-                        <li><NavLink to="/faq">FAQ</NavLink></li>
+                        <li><NavLink to="/section1">Home</NavLink></li>
+                        <li><NavLink to="/section3">How it works</NavLink></li>
+                        <li><NavLink to="/section4">Reviews</NavLink></li>
+                        <li><NavLink to="/section5">FAQ</NavLink></li>
                         <li ><NavLink to="/start" className="start">Get started</NavLink></li>
                     </ul>
                 </div>

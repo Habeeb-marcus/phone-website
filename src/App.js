@@ -15,11 +15,15 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        <Section1/>
+        <switch>
+        {/* <Route exact to="/home"> */}
+             <Section1/>
+        {/* </Route> */}
         <Section2/>
         <Section3/>
         <Section4 />
         <Section5 />
+        </switch>
         <Form/>
         <Footer/>
       </div>
