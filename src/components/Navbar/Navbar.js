@@ -7,15 +7,15 @@ import './Navbar.css';
 
 function Navbar() {
 const [Navbar, setNavbar] = useState(false)
-const [Clicked, setClicked] = useState(false)
+// const [Clicked, setClicked] = useState(false)
 
-const toggleBar = () => {
-    if(!Clicked){
-        setClicked(true)
-    } else {
-        setClicked(false)
-    }
-}
+// const toggleBar = () => {
+//     if(!Clicked){
+//         setClicked(true)
+//     } else {
+//         setClicked(false)
+//     }
+// }
 
 
 const changeNav = () => {
