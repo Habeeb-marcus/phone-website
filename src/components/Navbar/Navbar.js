@@ -7,15 +7,15 @@ import './Navbar.css';
 
 function Navbar() {
 const [Navbar, setNavbar] = useState(false)
-const [Clicked, setClicked] = useState(false)
+// const [Clicked, setClicked] = useState(false)
 
-const toggleBar = () => {
-    if(!Clicked){
-        setClicked(true)
-    } else {
-        setClicked(false)
-    }
-}
+// const toggleBar = () => {
+//     if(!Clicked){
+//         setClicked(true)
+//     } else {
+//         setClicked(false)
+//     }
+// }
 
 
 const changeNav = () => {
@@ -34,16 +34,16 @@ if( window.scrollY >= 200) {
                     <img src={logo} alt="we buy phones"/>
                 </div>
 
-                <div className="menu-mobile">
+                {/* <div className="menu-mobile">
                     <i className={Clicked ? "fas fa-times" : "fas fa-bars"} onClick={toggleBar}></i>
-                </div>
+                </div> */}
 
                 <div className="nav-list">
                     <ul className="nav-ul">
-                        <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about">How it works</NavLink></li>
-                        <li><NavLink to="/reviews">Reviews</NavLink></li>
-                        <li><NavLink to="/faq">FAQ</NavLink></li>
+                        <li><NavLink to="/section1">Home</NavLink></li>
+                        <li><NavLink to="/section3">How it works</NavLink></li>
+                        <li><NavLink to="/section4">Reviews</NavLink></li>
+                        <li><NavLink to="/section5">FAQ</NavLink></li>
                         <li ><NavLink to="/start" className="start">Get started</NavLink></li>
                     </ul>
                 </div>

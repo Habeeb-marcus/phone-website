@@ -36,8 +36,8 @@ function Section5 () {
                         </div>
                     
                     }
-                    )
-                    }
+                )
+            }
                 </div>
         </div>
     )
