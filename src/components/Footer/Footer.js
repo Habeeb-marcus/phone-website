@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import './Footer.css'
 import imgFoot from './../../images/logo.svg'
@@ -7,7 +7,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 // import { faTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brand-svg-icons'
 
-import ReactDOM from 'react-dom'
 
 library.add(fab)
 

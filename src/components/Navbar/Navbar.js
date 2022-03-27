@@ -34,9 +34,9 @@ if( window.scrollY >= 200) {
                     <img src={logo} alt="we buy phones"/>
                 </div>
 
-                <div className="menu-mobile">
+                {/* <div className="menu-mobile">
                     <i className={Clicked ? "fas fa-times" : "fas fa-bars"} onClick={toggleBar}></i>
-                </div>
+                </div> */}
 
                 <div className="nav-list">
                     <ul className="nav-ul">
