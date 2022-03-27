@@ -20,15 +20,12 @@ const Section2 = () => {
 
                 <div className="category">
                     <div className="category-main">
-                        {/* card */}
-                        {/* <div className="card-cont"> */}
                         <div className="card">
                                 <div className="card-top">
                                     <h3>iMac</h3> 
                                     <FontAwesomeIcon icon={faArrowCircleRight} className="arrow-right"/>
                                 </div>
                                 <div className="img-cont"><img src= {mac} alt="iMac"/></div>
-                            {/* </div> */}
                         </div>
 
                          <div className="card">
